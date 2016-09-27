@@ -1,1 +1,1 @@
-# cell
+#使用JavaScript实现nash元胞自动机
