@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/cell.css" type="text/css">
+</head>
+<body>
+<div id="nav">
+    <div id="start">
+        <button type="button" >start</button>
+    </div>
+    <div id="stop">
+        <button type="button" >stop</button>
+    </div>
+    <div id="restart">
+        <button type="button" >restart</button>
+    </div>
+    <div id="select">
+        <form>
+            <select name="初始设置">
+                <option value="mid">mid</option>
+                <option value="random">random</option>
+            </select>
+        </form>
+    </div>
+    <div id="step">
+        <p id="step-title">步数:</p>
+        <form id="step-text">
+            <input id="step-text-input" type="text" name="step" >
+        </form>
+    </div>
+    <div id="rule">
+        <p id="rule-title">规则:</p>
+        <form id="rule-select">
+            <select name="rules">
+                <option value="101">101</option>
+            </select>
+        </form>
+    </div>
+
+
+</div>
+<div id="Map" style="left: 0px;top: 50px">
+    <dl id="list">
+        <dt>
+            <svg id="svgline1" xmlns="http://www.w3.org/2000/svg" version="1.2" width="2005" height="5"
+                 style="background-color: black">
+                <!--<rect width="100" height="100" fill="white" x="0" y="10" stroke="black" stroke-width="1"></rect>-->
+                <!--<rect class="cell" x="0" y="0" width="100" height="100"></rect>-->
+            </svg>
+        </dt>
+        <!--<dt >-->
+        <!--<svg id="svgline2" xmlns="http://www.w3.org/2000/svg" version="1.2" width="2000" height="10"-->
+        <!--style="background-color: black">-->
+        <!--&lt;!&ndash;<rect width="2000" height="10" fill="blue"></rect>&ndash;&gt;-->
+        <!--</svg>-->
+        <!--</dt>-->
+    </dl>
+</div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+div
+{
+    position: absolute;
+}
+dl，dt
+{
+    position: absolute;
+}
+dl dt
+{
+    width: 2000px;
+    height:5px;
+    margin: 0px;
+    border: 0px;
+}
+.cell
+{
+    stroke: black;;
+    stroke-width: 0.1px;
+    fill: white;
+}
+#start
+{
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+#stop
+{
+    position: absolute;
+    left:50px;
+    top:0px;
+}
+#restart
+{
+    position: absolute;
+    left:100px;
+    top:0px;
+}
+#select
+{
+    position: absolute;
+    left:170px;
+    top:0px;
+}
+#step
+{
+    position: absolute;
+    width:100px;
+    height:20px;
+    left:250px;
+    top:0px;
+}
+#step-title
+{
+    position: absolute;
+    width: 40px;
+    left: 0px;
+    top:0px;
+    margin:0px;
+}
+#step-text
+{
+    position: absolute;
+    width:0px;
+    left: 42px;
+    top:0px;
+
+}
+#step-text-input
+{
+    position: absolute;
+    width: 50px;
+    left: 0px;
+    top:0px;
+}
+#rule
+{
+    position: absolute;
+    width:100px;
+    height:20px;
+    left:350px;
+    top:0px;
+}
+#rule-title
+{
+    position: absolute;
+    width: 40px;
+    left: 0px;
+    top:0px;
+    margin:0px;
+}
+#rule-select
+{
+    position: absolute;
+    width: 50px;
+    left: 40px;
+    top:0px;
+}
